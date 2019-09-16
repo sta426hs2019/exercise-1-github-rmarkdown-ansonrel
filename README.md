@@ -5,8 +5,7 @@
 
 *1. Create an account at github.com; give userid to Mark via Slack*
 
-*2. Acquaint yourself with git/github[¹]; *
-    * *make sure you can check in / out files from command line or app[²]*
+*2. Acquaint yourself with git/github[¹]; make sure you can check in / out files from command line or app[²]*
 
 *3. Create a new public repository, add a README.md (using markdown[³]) and add some content; include an image; include a web link, etc.*
 
