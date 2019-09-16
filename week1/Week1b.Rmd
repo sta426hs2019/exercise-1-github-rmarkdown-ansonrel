@@ -1,0 +1,60 @@
+---
+title: "Week 1 Exercise (part b)"
+author: "Anthony Sonrel"
+date: "9/16/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Instructions
+
+*Create an HTML document that samples 100 values from a log-normal distribution (say, mu=1, sigma=.25); create a histogram of the distribution and the distribution on the log scale; report the mean and variance of the sample in line in the text. (In general, do not just dump the R code and plots in the HTML document; break your exercises into sections with headings, add some text and make it readable.*
+
+
+
+## Sample from a log-normal distribution
+
+Set up seed for reproducibility:
+ 
+```{r params}
+
+rseed = 1
+
+```
+
+Create and store values form log-normal distribution: 
+
+```{r lognorm}
+
+set.seed(rseed)
+lognorm <- rlnorm(100, 1, .25)
+
+```
+
+
+## Plot
+
+Distribution of the log-normal distribution: 
+
+```{r}
+
+par(mfrow = c(1,2))
+hist(lognorm, breaks = 20, main = "log-normal distribution")
+hist(log(lognorm), breaks = 20, main = "log-normal distribution\n(log-scale)")
+
+```
+
+The sample has a **mean** of `r round(mean(lognorm), 2)` and a **variance** of `r round(var(lognorm), 2)`. 
+
+
+## Session info
+
+```{r}
+
+sessionInfo()
+
+```
+

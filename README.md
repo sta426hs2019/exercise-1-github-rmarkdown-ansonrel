@@ -1,17 +1,16 @@
 
 # exercise-1-github-rmarkdown-ansonrel
 
-## This week's exercice (part a)
+## Week 1 exercice (part a)
 
-1. Create an account at github.com; give userid to Mark via Slack
+*1. Create an account at github.com; give userid to Mark via Slack*
 
-2. Acquaint yourself with git/github[¹]; 
-    * make sure you can check in / out files from command line or app[²]
+*2. Acquaint yourself with git/github[¹]; *
+    * *make sure you can check in / out files from command line or app[²]*
 
-3. Create a new public repository, add a README.md (using markdown[³]) and add some content; include an image; include a web link, etc.
+*3. Create a new public repository, add a README.md (using markdown[³]) and add some content; include an image; include a web link, etc.*
 
-4. Add an Issue to the ‘material’ repo[⁴] with a link to your repo (you can
-delete the repo after I’ve closed the issue, if you want)
+*4. Add an Issue to the ‘material’ repo[⁴] with a link to your repo (you can delete the repo after I’ve closed the issue, if you want)*
 
 
 [¹]: https://gist.github.com/andrewpmiller/9668225
